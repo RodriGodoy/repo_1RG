@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Tienda Online</title>
+    <!--mi css-->
+    <link rel="stylesheet" href="../CSS/Style.css">
+</head>
+</head>
+<body>
+    <nav>
+        <a href="../index.html">
+            <img src="../img/mitienda.jpg" width="300" height="200" alt="Logode de MiTO">
+    </a>
+    <ul>
+        <li>
+            <a href="#">Buscar</a>
+        </li>
+        <li>
+            <a href="../Promociones/ofertas.html">Ofertas</a>
+        </li>
+        <li>
+            <a href="../Promociones/Catalogo.html">Catalogo</a>
+        </li>
+        <li>
+            <a href="#">Carrito</a>
+        </li>
+        <li>
+            <a href="../Promociones/Nosotros.html">Nosotros</a>
+        </li>
+        
+        <li>
+            <a href="../Promociones/Infoenvio.html">Informacion de Envio</a>
+        </li>
+    </ul>
+    </nav> 
+    <!--ends nav-->
+    <header>
+        
+    </header>
+    <!--ends header-->
+    <main>
+        <section>
+            <legend>Tus Datos</legend>
+            <br>
+        <form action="envio.php">
+        <label for="">Nombre:</label>
+        <input type="text" id="Nombre">
+        <label for="email">Email:</label>
+        <input type="email" id="email">
+        <label for="">Domicilio</label>
+        <input type="text" id="Domicilio">
+        <label for="">Celular:</label>
+        <input type="text" id="Celular">
+        <br>
+        <br>
+        <fieldset>
+            <legend>Info de envio</legend>
+            <label for="local"> Retiro en el Local</label>
+            <input type="radio" id="local" value="local" name="envio">
+            <br>
+            <label for="Domicilio"> Envio a Domicilio</label>
+            <input type="radio" id="casa" value="casa" name="envio">
+            <br>
+            <br>
+            <lebel for="Localidad">Tu Provincia</lebel>
+            <select name="" id="Localidad">
+            <option value="San Juan">San Juan</option>
+            <option value="San Juan">Mendoza</option>
+            <option value="San Juan">San Luis</option>
+            <option value="San Juan">La Rioja</option>
+            <option value="San Juan">La Pampa</option>
+            <option value="San Juan">Buenos Aires</option>
+            <option value="San Juan">Catamarca</option>
+            <option value="San Juan">Chaco</option>
+            <option value="San Juan">Chubut</option>
+            <option value="San Juan">Cordoba</option>
+            <option value="San Juan">Corrientes</option>
+            <option value="San Juan">Entre Rios</option>
+            <option value="San Juan">Formosa</option>
+            <option value="San Juan">Jujuy</option>
+            <option value="San Juan">La Pampa</option>
+            <option value="San Juan">Misiones</option>
+            <option value="San Juan">Neuquen</option>
+            <option value="San Juan">Salta</option>
+            <option value="San Juan">Santa Cruz</option>
+            <option value="San Juan">Santa Fe</option>
+            <option value="San Juan">Santiago del Estero</option>
+            <option value="San Juan">Tierra del Fuego</option>
+            <option value="San Juan">Tucuman</option>
+            </select>
+            <br>
+            <br>
+            <lebel for="mensaje">Cometario extra de Envio</lebel>
+            <br>
+            <textarea name="" id="mensaje" cols="40" rows="15"></textarea>
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Cancelar">
+            </section>
+        <!--ends form-->
+        <section></section>
+        <!--ends map-->
+    </main>
+    <footer>
+        <h5>Nuestras Redes:</h5>
+        <a href="../https://www.facebook.com" target="_blank">
+            <img src="../img/Facebook.webp" alt="Facebook" width="50" height="50"> 
+        </a>
+        <a href="../https://www.instagram.com" target="_blank">
+            <img src="../img/instagram.png" alt="instagram" width="50" height="50"> 
+        </a>
+    </footer>
+</body>
+</html>

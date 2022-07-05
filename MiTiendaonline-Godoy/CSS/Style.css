@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+h2{
+    font-size: 2rem;
+        color: #f1f50a; 
+}
+h1,
+h2,
+h3{
+    font-family: "Roboto", sans-serif ;
+}
+
+html{
+    font-size: 62.5%;
+
+}
+body{
+    background-color:#ff5733
+}
+p{
+      color: #e4d9d9;
+      font-family: "Roboto", sans-serif;
+      font-size: 2rem;
+      line-height: 2.4 ;
+      font-style: italic;
+
+  }
+
+nav{
+         background-color: #581845;
+   }
+nav ul{
+    list-style: none;
+        }
+nav ul li a{
+     color: #f1f50a;
+    text-decoration: none;
+    font-size: 2.2rem;
+        }
+                    /* selector de ID*/
+#pie{
+     color: #581845;
+ }
+footer{
+     background-color: #581845;
+     }
+.bull{
+    color: #f1f50a;
+     }
+main{
+     color: #ff5733 ;
+     }
+header{
+    background-color:#900c3f
+     }
+section{
+    background-color:#900c3f
+     }
+     
+     h5{
+        font-size: 2rem;
+        color: #f1f50a;
+     }
+
+     h6{
+        font-size: 2rem;
+        color: #f1f50a;  
+     }
+/* seccion de info envio*/
+     
+section{
+        font-size: 2rem;
+     }
+
+     h1{
+        font-size: 2rem;
+        color: #f1f50a;
+     }
